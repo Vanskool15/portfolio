@@ -38,4 +38,8 @@ a {
    .background-border {
     width: 250px;
    }
+
+   .arrow {
+    width:12px;
+   }
 }
