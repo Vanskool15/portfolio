@@ -7,6 +7,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     
+    
 }
 
 .title {
@@ -77,6 +78,13 @@ img {
     font-weight: bold;
   }
 
+  
+  
+  .details a {
+    text-decoration: underline;
+    color:black;
+  }
+
 .portfolio-container {
     padding:200px 0 0 60px;
     position:fixed;
@@ -85,7 +93,6 @@ img {
     display:flex;
     align-items: center;
     justify-content: end;
-    border-radius:10px;
 }
 
 
