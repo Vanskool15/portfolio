@@ -7,7 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <a  href="index.html"><img class="arrow" src="./Images/arrow.png"/></a>
+    <div id="preloader"></div>
+    <a  href="mainpage.html"><img class="arrow" src="./Images/arrow.png"/></a>
     
     <div class="contact-container">
         <h1>Conact Info</h1>
@@ -29,6 +30,14 @@
                </div>
         </a>
       
+
+        <script>
+            var loader = document.getElementById("preloader");
+
+            window.addEventListener("load", ()=>{
+                loader.style.display = "none";
+            })
+        </script>
        
         
     </div>
