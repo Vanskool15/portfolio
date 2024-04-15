@@ -74,6 +74,7 @@ ul a:hover {
 }
 
 .container {
+    margin-top:30px;
     position:absolute;
     top:30%;
     left:50%;
@@ -110,6 +111,7 @@ ul a:hover {
         font-size:20px;
     }
 
+    
    
 }
 
@@ -129,7 +131,7 @@ ul a:hover {
 
 video {
     width:200px;
-    padding:20px;
+    padding:10px;
     
     
 }
