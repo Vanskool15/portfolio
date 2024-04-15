@@ -108,7 +108,7 @@ ul a:hover {
     }
 
 
-    
+  
    
 }
 
@@ -143,11 +143,26 @@ video {
 .logo-container {
     display:flex;
     align-items: center;
-    gap:120px;
+    position:relative;
+    
 }
 
+
+
 .github-img {
-    width:40px;
+    width:30px;
+    
+}
+
+.direction {
+    position:absolute;
+    top:28px;
+    right:-75px;
+    font-size:12px;
+}
+
+.logo-container h4 {
+    color:white;
 }
 
 
