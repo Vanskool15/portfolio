@@ -12,142 +12,75 @@ body {
     height:100%;
     
     
-    
 }
 
-.title {
-    font-size: 40px;
-    font-family: "Libre Caslon Display", serif;
-    letter-spacing: 2px;
-    font-weight:700;
-   
-}
 
-.title-container {
-   display: flex;
-   justify-content: center;
-   
-}
-
-img {
-    
-    width:40px;
-}
-
-.head-container {
-    padding:10px;
-    text-align: center;
-    min-width:700px;
+.nav-container {
     display:flex;
     justify-content: end;
     align-items: center;
-    gap:40px;
- 
-}
-
-
-
-
-.list-container li {
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-weight:bold;
-}
-
-.list-container ul {
-    display:flex;
     gap:20px;
-    justify-content: space-around;
+    margin:10px;
+    
+   
+   
+
 }
 
-.portfolio-img {
-    margin:0 20px 0 20px;
-    width:140px;
-  
-}
-
-  .details {
+.nav-container ul {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .details h3 {
-    font-size:40px;
-  }
-
-  .details p {
-    font-size:20px;
-    font-weight: bold;
-    color:white;
-  }
-
-  .details p:hover{
-    color:#cbcbcb;
-    transition:0.14s;
-  }
-
-  .details a:hover {
-    color:grey;
+    gap:10px;
+    list-style: none; 
+  
     
-  }
+}
 
-  
-  
-  .details a {
+.nav-container img:hover {
+    scale: calc(1.1);
+    transition:0.40;
+}
+
+.hackermask-img {
+    width:140px;
+    margin:20px;
+}
+
+
+
+ .doc-type {
+    text-align: center;
+    font-size:50px;
+    
+}
+
+.info-container {
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top:40px;
+   line-height:40px;
+   text-align: center;
+    
+}
+
+
+.info-container a {
+    text-decoration: none;
+    color:white;
+}
+
+.info-container a:hover {
     text-decoration: underline;
-    color:white;
-    
-  }
+    color:grey;
+}
+
+
 
   
-
-.portfolio-container {
-    padding:200px 0 0 60px;
-    position:fixed;
-    right:0;
-    padding-right:40px;
-    display:flex;
-    align-items: center;
-    justify-content: end;
-}
-
-
-.description-container {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.fixed-container {
-    padding:50px;
-    position:fixed;
-    left:0;
-    right:0;
-}
-
-.description-container h3 {
-    font-size:30px;
-    margin-bottom:20px;
-}
-
-
-.description {
-    font-size:13px;
-}
-
-
-@media screen and (max-width: 768px) {
-
-    .description-container h3 {
-        font-size:15px;
+@media screen and (max-width: 726px) {
+    .doc-type {
+        font-size:30px;
+        margin-top:40px;
     }
-
     
-  }
-
-  
+}
