@@ -7,36 +7,31 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background:black;
+    background:#010101;
     color:white;
 
+
     
     
     
 }
 
-
-.nav-container {
-    display:flex;
-    justify-content: end;
-    align-items: center;
-    gap:10px;
-    margin:10px;
-    font-weight:bold;
-    
-    
-   
-   
-
+.contacts {
+    color:white;
 }
 
-.nav-container ul {
-    display: flex;
-    gap:10px;
-    list-style: none; 
-  
-    
+.name-status-logo a {
+    color:white;
 }
+
+.name-status-logo a:hover {
+    color:grey;
+}
+
+.contacts:hover{
+    color:grey;
+}
+
 
 .nav-container img:hover {
     scale: calc(1.1);
@@ -44,8 +39,8 @@ body {
 }
 
 .hackermask-img {
-    width:140px;
-    margin:20px;
+    width:120px;
+    margin-left:20px;
 }
 
 
@@ -76,10 +71,9 @@ ul a:hover {
 .container {
   
     position:absolute;
-    top:35%;
+    top:30%;
     left:50%;
     transform: translate(-50%,-30%);
-    border:1px solid white;
     padding:10px;
     background:#010101;
     border-radius:4px;
@@ -87,11 +81,25 @@ ul a:hover {
 }
 
 
+.full-name {
+    font-size:12px;
+}
+
+.work-status {
+    font-size:30px;
+}
+
 
   
 @media screen and (max-width: 726px) {
+    .work-status {
+        font-size:20px;
+    }
     
 
+    .hackermask-img {
+        width:90px;
+    }
     
 
     .info-container p {
@@ -99,9 +107,6 @@ ul a:hover {
         line-height:15px;
     }
 
-    .info-container h2 {
-        font-size:20px;
-    }
 
     
    
@@ -123,9 +128,26 @@ ul a:hover {
 
 video {
     width:200px;
-    padding:10px;
+    margin-top:40px;
     
     
+}
+
+.name-status-logo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo-container {
+    display:flex;
+    align-items: center;
+    gap:120px;
+}
+
+.github-img {
+    width:40px;
 }
 
 
