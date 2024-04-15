@@ -6,6 +6,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    color:white;
     
     
 }
@@ -14,6 +16,7 @@ body {
     font-size: 40px;
     font-family: "Libre Caslon Display", serif;
     letter-spacing: 2px;
+    font-weight:700;
    
 }
 
@@ -76,14 +79,28 @@ img {
   .details p {
     font-size:20px;
     font-weight: bold;
+    color:white;
+  }
+
+  .details p:hover{
+    color:#cbcbcb;
+    transition:0.14s;
+  }
+
+  .details a:hover {
+    color:grey;
+    
   }
 
   
   
   .details a {
     text-decoration: underline;
-    color:black;
+    color:white;
+    
   }
+
+  
 
 .portfolio-container {
     padding:200px 0 0 60px;
