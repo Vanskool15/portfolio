@@ -1,131 +1,135 @@
 * {
-   margin:0;
- 
-    
+    margin:0;
 }
-
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background:#010101;
     color:white;
-    text-align: center;
-    line-height:30px;
+    background:black;
+}
 
-
+.container2 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
     
     
-    
 }
 
-.contacts {
-    color:white;
-}
-
-.name-status-logo a {
-    color:white;
-}
-
-.name-status-logo a:hover {
-    color:grey;
-}
-
-.contacts:hover{
-    color:grey;
-}
-
-
-.nav-container img:hover {
-    scale: calc(1.1);
-    transition:0.40;
-}
-
-.hackermask-img {
-    width:120px;
-    margin-left:20px;
-}
-
-
-
- 
 
 .info-container {
-   display:flex;
-   flex-direction: column;
-   align-items: center;
-   text-align: center;
+  display:flex;
+  align-items: center;
+  text-align: center;
   
     
 }
 
-
-ul a {
+.info-container a {
     text-decoration: none;
+}
+
+.info-container p {
+    color:white;
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+.info-container p:hover {
+    color:grey;
+    transition: 0.15s;
+   
+}
+
+.info-container h3 {
+    font-size:14px;
+}
+
+
+.info-container video {
+    padding-top:10px;
+    width:50%;
+    height:auto;
+}
+
+.nav-container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10px 0 10px;
+}
+
+.nav-container ul {
+    list-style: none;
+    display:flex;
+    gap:30px;
+}
+
+.nav-container li {
+    text-decoration:underline;
     color:white;
 }
 
-ul a:hover {
-    text-decoration: underline;
+.nav-container li:hover {
     color:grey;
-    transition:0.15s;
 }
 
-.container {
-  
-    position:absolute;
-    top:30%;
-    left:50%;
-    transform: translate(-50%,-30%);
-    padding:10px;
-    background:#010101;
-    border-radius:4px;
-    
-}
-
-.container h3 {
-    margin-top:20px;
+.container1 {
+    position:fixed;
+    left:0;
+    right:0;
 }
 
 
-
-
-.full-name {
-    font-size:12px;
-}
-
-.work-status {
-    font-size:25px;
-}
-
-
-  
-@media screen and (max-width: 726px) {
-    .work-status {
-        font-size:20px;
-    }
-    
-
-
-    .container p {
-        font-size:10px;
+@media  screen and (max-width:600px) {
+    .container2 {
+        position:absolute;
+        top:20%;
+        left:30%;
+        transform: translate(-20%, -30%);
+        
+        
     }
 
-
-    .hackermask-img {
-        width:90px;
+    .info-container img {
+        width:70px;
+        padding-left:10px;
     }
 
+    .nav-container {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+    }
 
+   .info-container h1 {
+    font-size:20px;
+   }
 
+   .info-container p {
+    font-size:10px;
+   }
 
-  
+   .info-container h3 {
+    font-size:10px;
+   }
+
+   .info-container video {
+    padding-top:10px;
+    width:60%;
+    height:auto;
+}
    
 }
 
 
+
+
+
+
 #preloader {
     background: #ffff url("./Images/Spinner.gif") no-repeat center center ;
-    
     height:100vh;
     width:100%;
     position:fixed;
@@ -133,42 +137,6 @@ ul a:hover {
     
     
     
-}
-
-
-video {
-    width:200px;
-    margin-top:40px;
-    
-    
-}
-
-.name-status-logo {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-
-.github-img {
-    width:30px;
-    
-}
-
-.logo-container {
-    display:flex;
-    flex-direction: column;
-    gap:10px;
-}
-
-.video-container {
-    display:flex;
-    justify-content: center;
-
 }
 
 
