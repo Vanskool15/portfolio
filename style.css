@@ -9,6 +9,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background:#010101;
     color:white;
+    text-align: center;
+    line-height:30px;
 
 
     
@@ -80,13 +82,19 @@ ul a:hover {
     
 }
 
+.container h3 {
+    margin-top:20px;
+}
+
+
+
 
 .full-name {
     font-size:12px;
 }
 
 .work-status {
-    font-size:30px;
+    font-size:25px;
 }
 
 
@@ -97,14 +105,9 @@ ul a:hover {
     }
     
 
-    .hackermask-img {
-        width:90px;
-    }
-    
 
-    .info-container p {
-        font-size:12px;
-        line-height:15px;
+    .container p {
+        font-size:10px;
     }
 
 
@@ -140,12 +143,7 @@ video {
 }
 
 
-.logo-container {
-    display:flex;
-    align-items: center;
-    position:relative;
-    
-}
+
 
 
 
@@ -154,15 +152,16 @@ video {
     
 }
 
-.direction {
-    position:absolute;
-    top:28px;
-    right:-75px;
-    font-size:12px;
+.logo-container {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
 }
 
-.logo-container h4 {
-    color:white;
+.video-container {
+    display:flex;
+    justify-content: center;
+
 }
 
 
