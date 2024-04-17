@@ -6,15 +6,7 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     color:white;
     background:black;
-}
-
-.container2 {
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    
-    
+    overflow:hidden;
 }
 
 
