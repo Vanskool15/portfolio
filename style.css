@@ -76,11 +76,7 @@ body {
     color:grey;
 }
 
-.container1 {
-    position:fixed;
-    left:0;
-    right:0;
-}
+
 
 .info-container h1 {
     font-size:50px;
@@ -143,6 +139,50 @@ body {
 }
 
    
+}
+
+
+@media screen and (orientation: landscape) {
+    .container2 {
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -30%);
+        
+        
+    }
+
+    .info-container img {
+        width:200px;
+        padding-left:10px;
+    }
+
+   .info-container h1 {
+    font-size:40px;
+   }
+
+   .info-container p {
+    font-size:15px;
+   }
+
+   .info-container h3 {
+    font-size:15px;
+   }
+
+   .info-container video {
+    padding-top:10px;
+    width:60%;
+    height:auto;
+}
+
+.nav-container li {
+    font-size:15px;
+}
+
+.program-lang img {
+    width:50px;
+}
+
 }
 
 
