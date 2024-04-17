@@ -3,15 +3,16 @@
 }
 
 body {
+    font-family:Arial, Helvetica, sans-serif;
     color:white;
     background:black;
 }
 
 .container2 {
     position:absolute;
-    top:65%;
+    top:50%;
     left:50%;
-    transform: translate(-65%,-50%);
+    transform: translate(-50%,-50%);
     
     
 }
@@ -31,8 +32,8 @@ body {
 
 .info-container p {
     color:white;
-    font-weight:bold;
     text-decoration: underline;
+    font-size:18px;
 }
 
 .info-container p:hover {
@@ -42,7 +43,7 @@ body {
 }
 
 .info-container h3 {
-    font-size:14px;
+    font-size:18px;
 }
 
 
@@ -81,13 +82,17 @@ body {
     right:0;
 }
 
+.info-container h1 {
+    font-size:50px;
+   }
+
 
 @media  screen and (max-width:600px) {
     .container2 {
         position:absolute;
-        top:20%;
-        left:30%;
-        transform: translate(-20%, -30%);
+        top:25%;
+        left:50%;
+        transform: translate(-50%, -25%);
         
         
     }
@@ -98,7 +103,7 @@ body {
     }
 
    .info-container h1 {
-    font-size:20px;
+    font-size:28px;
    }
 
    .info-container p {
