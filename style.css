@@ -126,7 +126,7 @@ body {
 
    .info-container video {
     padding-top:10px;
-    width:60%;
+    width:100%;
     height:auto;
 }
 
@@ -135,7 +135,7 @@ body {
 }
 
 .program-lang img {
-    width:14px;
+    width:20px;
 }
 
    
@@ -171,7 +171,7 @@ body {
 
    .info-container video {
     padding-top:10px;
-    width:60%;
+    width:80%;
     height:auto;
 }
 
