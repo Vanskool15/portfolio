@@ -86,13 +86,27 @@ body {
     font-size:50px;
    }
 
+.program-lang img {
+    width:40px;
+}
+
+
+.program-lang  {
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    margin-top:10px;
+}
+
+
+
 
 @media  screen and (max-width:600px) {
     .container2 {
         position:absolute;
-        top:25%;
+        top:30%;
         left:50%;
-        transform: translate(-50%, -25%);
+        transform: translate(-50%, -30%);
         
         
     }
@@ -103,7 +117,7 @@ body {
     }
 
    .info-container h1 {
-    font-size:28px;
+    font-size:25px;
    }
 
    .info-container p {
@@ -123,6 +137,11 @@ body {
 .nav-container li {
     font-size:15px;
 }
+
+.program-lang img {
+    width:14px;
+}
+
    
 }
 
