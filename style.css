@@ -104,11 +104,11 @@ body {
     }
 
     .info-container img {
-        width:60px;
+        width:45px;
     }
 
    .info-container h1 {
-    font-size:25px;
+    font-size:28px;
    }
 
    .info-container p {
@@ -116,7 +116,7 @@ body {
    }
 
    .info-container h3 {
-    font-size:10px;
+    font-size:13px;
    }
 
    .info-container video {
@@ -148,7 +148,7 @@ body {
     }
 
     .info-container img {
-        width:200px;
+        width:180px;
         padding-left:10px;
     }
 
