@@ -1,0 +1,51 @@
+@media screen and (max-width:1200px) {
+    .nav-container {
+        display:none;
+    }
+
+
+    #hamburger-nav {
+        display:flex;
+        position:fixed;
+        left:0;
+        right:0;
+    }
+
+    section {
+        height:fit-content;
+        width:200px;
+    }
+
+    #profile {
+        display:flex;
+        justify-content: center;
+        gap:1rem;
+        height:80vh;
+    }
+    
+
+    .text-section-p2 {
+        font-size:30px;
+    }
+
+    .text-section-p1 {
+        font-size:12px;
+    }
+   
+    .learning-img img {
+        width:40px;
+    }
+   
+}
+
+
+@media screen and (max-width: 1400px) {
+    #profile {
+     height:83vh;
+     margin-bottom:6rem;
+    }
+ 
+  
+ 
+    
+ }
