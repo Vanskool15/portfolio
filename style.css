@@ -15,6 +15,22 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.nav-container a {
+    text-decoration: none;
+    color:black;
+    background:white;
+    padding:8px 4px;
+    font-size:16px;
+    border-radius:5px;
+    font-weight:500;
+}
+
+.nav-container a:hover {
+    color:white;
+    background:black;
+    border:1px solid grey;
+}
+
 nav, ul {
     display:flex;
     justify-content: space-between;

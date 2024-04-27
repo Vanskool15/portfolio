@@ -6,14 +6,12 @@
 
     #hamburger-nav {
         display:flex;
-        position:fixed;
-        left:0;
-        right:0;
     }
 
     section {
         height:fit-content;
         width:200px;
+        
     }
 
     #profile {
@@ -22,6 +20,13 @@
         gap:1rem;
         height:80vh;
     }
+
+    #profile,.section-pic-container {
+        display:block;
+        margin-top:2rem;
+    }
+
+    
     
 
     .text-section-p2 {
@@ -35,6 +40,8 @@
     .learning-img img {
         width:40px;
     }
+
+   
    
 }
 
